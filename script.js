@@ -66,9 +66,9 @@ const energyProgress = document.getElementById("energy-progress");
 const fuelProgress = document.getElementById("fuel-progress");
 
 function formatTime(seconds) {
-  const m = String(Math.floor(seconds / 60)).padStart(2, "0");
-  const s = String(seconds % 60).padStart(2, "0");
-  return `⏱️ ${m}:${s}`;
+  const minutes = String(Math.floor(seconds / 60)).padStart(2, "0");
+  const remainingSeconds = String(seconds % 60).padStart(2, "0");
+  return `⏱️ ${minutes}:${remainingSeconds}`;
 }
 
 function normalizeAnswer(value) {

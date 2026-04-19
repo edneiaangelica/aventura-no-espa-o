@@ -20,4 +20,4 @@ Experiência gamificada com 3 missões progressivas:
 
 ### Como executar
 
-Abra o arquivo `/home/runner/work/aventura-no-espa-o/aventura-no-espa-o/index.html` em qualquer navegador moderno.
+Abra o arquivo `index.html` (na raiz do projeto) em qualquer navegador moderno.
