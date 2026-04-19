@@ -35,13 +35,20 @@
         <h2 id="question-title">Prepare-se para o desafio!</h2>
         <p id="question-text"></p>
         <form id="answer-form">
-          <input id="answer-input" type="text" autocomplete="off" inputmode="numeric" required />
+          <input
+            id="answer-input"
+            type="text"
+            autocomplete="off"
+            inputmode="numeric"
+            aria-label="Resposta do desafio"
+            required
+          />
           <button type="submit">Enviar resposta</button>
         </form>
         <p class="hint" id="question-hint"></p>
       </section>
 
-      <section class="feedback hidden" id="feedback-screen"></section>
+      <section class="feedback hidden" id="feedback-screen" aria-live="polite" aria-atomic="true"></section>
 
       <section class="controls">
         <button id="start-button">Iniciar missão</button>
